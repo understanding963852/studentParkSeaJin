@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(media.css);
+
+/* 레이아웃 */
+#header{}
+#navbar{
+    height: 80px;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.container_m{
+    width: 1750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+#main{}
+
+
+/* 가운데영역 */
+.container{
+    max-width: 1750px;
+    margin: 0 auto;
+}
+
+/* row영역 */
+.row {padding: 0 20px}
+
+
+
+/* 스크롤 */
+html{scroll-behavior: smooth;}
+
+
+
+
+/* ---------- header ---------- */
+.main_logo{}
+
+#navbar{
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    z-index: 200;
+    background-color: #fff;
+}
+#navbar.sticky{
+    position: fixed; 
+    top: 0; left: 0; width: 100%;
+}
+
+/*  header > nav_left  */
+
+#navbar .nav_left .logo{
+    display: none;
+    margin: 0 20px;
+    width: 300px;
+}
+#navbar .logo img{}
+
+#navbar .nav_left{
+    position: relative;
+    display: flex;
+}
+.nav_left .menu{}
+.nav_left .menu .main_menu{
+    margin-top: 20px;
+    width: 800px;
+}
+.nav_left .menu .main_menu li{
+    float: left;
+    padding-right: 30px;
+}
+.nav_left .menu .main_menu li a{
+    height: 30px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nav_left .menu a:hover{
+    border-bottom:2px solid #000 ;
+}
+.menu .sub_menu{
+    position: absolute;
+    left: 0; right: 0;
+    display: none;
+    padding: 0 30px;
+    color: #000000;
+    z-index: 200;
+}
+
+.main_menu li:hover .sub_menu{
+    display: flex;
+    
+}
+.sub_menu dl{
+    width: 40%;
+}
+.sub_menu dl dd{
+    padding-top: 50px;
+}
+.sub_menu dl dd a{
+    font-size: 25px !important;
+    font-weight: 300 !important;
+}
+.sub_menu dl.bag dd a{
+    margin-left: 180px;
+}
+.sub_menu dl.img dd{
+    width: 100%;
+}
+.sub_menu dl.img dd img{
+    padding-right: 30px;
+    height: 500px;
+}
+
+/*  header > nav_right  */
+#navbar .nav_right{
+    margin-right: 20px;
+}
+#navbar .nav_right span{
+    font-size: 30px;
+    padding-left:30px;
+    
+}
+.nav_right .bars{
+    display: none;
+    cursor: pointer;
+}
+
+/* ---------- slideNav ---------- */
+.slidenav{
+    position: fixed;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding-top: 60px;
+    transition: 0.3s;
+    overflow: hidden;
+    z-index: 100;
+}
+.slidenav::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+.slidenav a{
+    font-size: 25px;
+    display: block;
+    padding: 8px 8px 8px 30px;
+}
+
+.slidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    color: #454545;
+}
+
+
+
+/* slideNav > menu1*/
+
+.slidenav .menu1{}
+.slidenav .menu1 a{
+    display: block;
+    font-weight: bold;
+    margin: 40px 0 40px 30px;
+    padding: 10px;
+}
+
+
+/* slideNav > menu2*/
+.slidenav .menu2{}
+.slidenav .menu2 a{
+    display: block;
+    margin: 20px 0 20px 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+.slidenav .menu2 a i{
+    padding-right: 15px;
+}
+
+
+
+
+/* ---------- mainbanner ---------- */
+.banner{
+   margin-top: 30px;
+   position: relative;
+   background-color: #fff;
+   width: 100%; height: 80vh;
+   display: flex;
+   overflow: hidden;
+}
+.banner .banner_left{
+    background: url(../img/image2.jpg) no-repeat top left;
+    background-size:cover;
+    width: 70%;
+}
+.banner_left .banner_txt{}
+
+.banner_left .banner_txt span.banner_tit{
+    position: absolute;
+    bottom: 20%; right:10px;
+    text-align: center;
+    z-index: 100; color: #000;
+    font-size: 4.6em;
+}
+.banner .banner_left svg{
+    position: absolute;
+    top:5%; right:10px;
+    z-index: 50;
+}
+.banner .banner_left .rotate_logo{
+    width: 1200px;
+    animation: ro_logo 15s linear infinite;
+}
+@keyframes ro_logo{
+    100%{transform: rotate(360deg);}
+}
+/* ----------텍스트 애니----------- */
+.banner_txt.animate__motion span {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.banner_txt.animate__motion span b {
+    display:inline-block;
+    animation: textAni 2.0s;
+}
+@keyframes textAni {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+        transform: translate(0, 40px) skewY(15deg);
+        transform-origin: top left;
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.banner .banner_right{
+    position: relative;
+    display: inline-block;
+    background:url(../img/image7.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 30%;
+}

@@ -1,0 +1,272 @@
+/* 반응형 */
+
+/* ----------(1401~1720)---------- */
+@media (max-width:1720px){
+    #navbar{float: right; margin-top: 0; height: 75px;}
+    #navbar .nav_left .menu{display: none;}
+    #navbar .nav_right .search{font-size: 30px;}
+    #navbar .nav_right .cart{font-size: 30px;}
+    #navbar .nav_right .user{display: none;}
+    #navbar .nav_right .like{display: none;}
+    #navbar .nav_right .bars{display: inline-block; font-size: 30px;}
+
+    .banner{height: 60vh;}
+    .banner_left .banner_txt span.banner_tit {font-size: 3.4em;}
+    .banner .banner_left .rotate_logo{width: 950px;}
+    .banner .banner_left svg {width: 900px; top: 0; right: 0;}
+    .banner .banner_left svg circle {r:390px}
+
+    #section1 .wrap .title{font-size: 80px; padding: 60px;}
+
+    #section1 .left h1{font-size: 45px;}
+    #section1 .left .open_vedio img {height: 300px;}
+    #section1 .left .wrapper{gap: 1rem;}
+    #section1 .left .card{height: 220px;}
+    #section1 .left_sub .text_wrap h2{font-size: 5em; top: 93px;}
+    #section1 .left_sub .image{width: 280px;}
+  
+    #section1 .center .centertit h1{font-size: 60px;}
+    #section1 .wrap .center .rgb{width: 1000px; height: 520px; top: 150px;}
+    #section1 .center .text_ani{top: 70%;}
+    #section1 .center .text_ani span{font-size: 4.2em;}
+    #section1 .center .bag_img{width: 130px;}
+
+    #section1 .wrap .right h1{font-size: 45px;}
+    #section1 .item_section .two .text span{font-size: 15px;}
+    #section1 .item_section .two .text span b{font-size: 16px;}
+    #section1 .item_section .one .box_img{width: 130px; height: 130px;}
+    #section1 .item_section .two .model_img .img{width: 330px;height: 355px; left:-60px;}
+    #section1 .item_section2 .acc{width: 350px;}
+    #section1 .item_section2 .acc .accordion{padding: 7px; font-size: 18px;}
+    #section1 .item_section2 .acc .panel{margin: 4px 0;}
+    #section1 .item_section2 .acc .panel .aco_img{gap: 0.6rem; width: 80px;}
+
+    #section2 .wrap .text {top: 0;}
+    #section2 .wrap .text h2, #section2 .wrap .text h2{font-size: 70px;}
+    #section2 .wrap .text h2, #section2 .wrap .text h3{font-size: 80px;}
+    #section2 .content-carrousel figure{height: 180px;}
+}
+
+/* ----------(1291~1400)---------- */
+@media (max-width:1400px){
+    .banner{height: 60vh;}
+    .banner .banner_left .rotate_logo{width: 860px;}
+    .banner .banner_left svg{width: 860px;}
+    .banner_left .banner_txt span.banner_tit {font-size: 3em;}
+    .banner .banner_left svg circle {r: 361px;}
+    #section1 .wrap .title{font-size: 70px;}
+
+    #section1 .left h1{font-size: 40px;}
+    #section1 .left .open_vedio img{height: 250px;}
+    #section1 .left .name span{font-size: 18px;}
+    #section1 .left_sub .text_wrap h2{font-size: 4.5em;}
+
+    #section1 .wrap .center{background-size:900px 700px;}
+    #section1 .center .text_ani span{font-size: 4em;}
+    #section1 .center .bag_img{width: 120px;}
+
+    #section1 .wrap .right h1{font-size: 40px;}
+    #section1 .item_section .one .box_img{margin-top: 10px; width: 120px; height: 120px;}
+    #section1 .item_section .two .text span{font-size: 14px;}
+    #section1 .item_section .two .text span b{font-size: 15px;}
+    #section1 .item_section .one .arrow{font-size: 20px; margin: 10px;}
+    #section1 .item_section2 .acc{width: 315px;}
+    #section1 .item_section2 .acc .panel .aco_img{width: 75px; gap: 0.3rem;}
+    #section1 .item_section .two .model_img .img{width: 300px;}    
+}
+
+
+/* ----------(1025~1290)---------- */
+@media (max-width:1290px){
+    #navbar .nav_left .logo{width: 270px;}
+    #navbar .nav_right .search{font-size: 25px;}
+    #navbar .nav_right .cart{font-size: 25px;}
+    #navbar .nav_right .bars{font-size: 25px;}
+
+    .banner{height: 50vh;}
+    .banner .banner_left .rotate_logo{width: 680px;}
+    .banner_left .banner_txt span.banner_tit{font-size:2.5em;}
+    .banner .banner_left svg{width: 765px; top:-120px;}
+    .banner .banner_left svg circle{r: 300px;}
+
+
+    #section1 .wrap .title{padding: 50px; font-size: 45px;}
+
+    #section1 .left h1{font-size: 35px;}
+    #section1 .left .name span{font-size: 14px;}
+    #section1 .left .name p{font-size: 12px;}
+    #section1 .left .card{width: 170px; height:180px; margin: 10px auto;}
+    #section1 .left_sub .text_wrap h2{font-size: 60px; top: 70px;}
+    #section1 .left_sub .image{width: 200px;}
+
+    #section1 .center .centertit h1{font-size: 50px;}
+    #section1 .wrap .center .rgb{width: 830px; height: 430px; top:120px;}
+    #section1 .center .text_ani span{font-size: 50px;}
+    #section1 .center .rgb nav .main-nav.prev{left: 22%;}
+    #section1 .center .rgb nav .main-nav.next{right: 22%;}
+    #section1 .center .bag_img{width: 100px;}
+
+    #section1 .wrap .right h1{font-size: 35px;}
+    #section1 .item_section .one .box_img {margin-top: 6px;width: 100px;height: 100px;}
+    #section1 .item_section .two .model_img{margin-top: 0;}
+    #section1 .item_section .two .model_img .img{width: 260px; height: 300px;}
+    #section1 .item_section2 .acc{width: 280px;}
+    #section1 .item_section2 .acc .panel .aco_img {width: 70px; gap: 0.2rem;}
+}
+
+/* ----------(961~1024)---------- */
+@media (max-width:1024px){
+    .banner .banner_left .rotate_logo{width: 650px;}
+    .banner_left .banner_txt span.banner_tit{font-size: 2.3em;}
+    .banner .banner_left svg{width: 700px;}
+
+    #section1 .left .name span{font-size: 12px;}
+    #section1 .left .card{height: 160px; margin: 8px auto;}
+    #section1 .wrap .center .rgb{width: 800px; height: 400px; top: 105px;}
+    #section1 .left_sub .text_wrap h2{font-size: 52px; top: 55px;}
+
+    #section1 .center .bag_img{width: 86px;}
+    #section1 .center .centertit h1{font-size: 40px;}
+    #section1 .center .text_ani span{font-size: 45px;}
+
+    #section1 .item_section .one .box_img{width: 85px; height: 85px;}
+    #section1 .item_section .two .text span{font-size: 12px;}
+    #section1 .item_section .two .text span b{font-size: 14px;}
+    #section1 .item_section .two .text span strong{font-size: 20px;}
+    #section1 .item_section2 .acc{width: 245px;}
+    #section1 .item_section2 .acc .panel .aco_img{width: 60px;}
+}
+
+/* ----------(768~960)---------- */
+@media (max-width:960px){
+    #navbar .nav_right span{padding-left: 22px;}
+    #navbar{height: 70px; padding-top: 15px;}
+    
+
+    .banner{height: 40vh;}
+    .banner .banner_left .rotate_logo{width: 650px;}
+    .banner_left .banner_txt span.banner_tit{font-size:1.8em;}
+    .banner .banner_left svg{display: none;}
+    .banner .banner_left .rotate_logo{position: absolute; top: 183px; right: 250px;
+        z-index: 90; width: 190px;}
+
+
+    #section1 .wrap .title{font-size: 30px; padding: 50px 0 50px 0;}
+
+    #section1 .left h1 {font-size: 25px;}
+    #section1 .left .open_vedio img {height: 180px; border-radius: 30px;}
+    #section1 .left .open_vedio span{font-size: 10px;}
+    #section1 .left .name{display: none;}
+    #section1 .left .wrapper{display:block; margin-top: 0;}
+    #section1 .left .card{height: 180px; margin: 10px auto;}
+    #section1 .left_sub {display: none;}
+    #section1 .left_sub .image{display: none;}
+    
+    #section1 .wrap .center{background-size:900px 500px;}
+    #section1 .wrap .center .rgb{width: 560px; height: 300px;}
+    #section1 .center .rgb nav .main-nav{font-size: 20px;}
+    #section1 .center .text_ani span{font-size: 30px;}
+    #section1 .center .bag_img{width: 73px;}
+
+    #section1 .wrap .right h1{font-size: 25px;}
+    #section1 .item_section .one .box_img{width: 70px; height: 70px; margin-top: 4px;}
+    #section1 .item_section .two .text span{font-size: 10px;}
+    #section1 .item_section .two .text span b{font-size: 12px;}
+    #section1 .item_section .two .model_img .img{width: 200px; height: 220px;}
+    #section1 .item_section2 .acc{width: 190px;}
+    #section1 .item_section2 .acc .panel .aco_img{width: 45px;}
+    #section1 .item_section2 .acc .accordion {padding: 4px;font-size: 14px;}
+    #section1 .item_section2 .acc .panel {margin: 2px 0;}
+    
+
+}
+
+/* ----------(481~767)---------- */
+@media (max-width:767px){
+    #navbar .nav_left .logo{width: 150px; margin: 10px;}
+
+    .banner{height: 30vh; margin-top: 0;}
+    .banner_left .banner_txt span.banner_tit{font-size: 1.1em;}
+    .banner .banner_left .rotate_logo{width: 110px; top: 169px; right: 142px;}
+
+    #section1 .wrap .title{font-size: 25px; padding-block: 30px; letter-spacing:10px;}
+    #section1 .wrap .wrap_sub{display: block;}
+
+    #section1 .wrap .left{border-right:none; width: 100%; padding-left: 0%;}
+    #section1 .left .open_vedio img{height: 500px; border-radius: 50px;}
+    #section1 .left h1{font-size: 40px; padding-top: 10px; text-align: center;}
+    #section1 .left .wrapper{display: none;}
+
+    #section1 .wrap .center{width: 100%; height: 50vh;border: none; background: none;}
+    #section1 .center .centertit{border-bottom: none;}
+    #section1 .center .centertit h1{padding-top: 10px; text-align: center;}
+    #section1 .wrap .center .rgb{width: 800px; height: 400px;}
+    #section1 .center .bag_img{display: none;}
+    #section1 .center .text_ani{display: none;}
+
+    #section1 .wrap .right{width: 100%;}
+    #section1 .wrap .right h1{font-size: 40px; padding-top: 10px; text-align: center;}
+    #section1 .item_section .one{width: 20%;}
+    #section1 .item_section .one .box_img {width: 80px; height: 80px;}
+    #section1 .item_section .two .model_img .img{top: -20px;left: 0;width: 300px; height: 300px;}
+    #section1 .item_section .two .text{margin-top: 0;}
+    #section1 .item_section .two .text span strong{display: none;}
+    #section1 .item_section .two .text span{font-size: 12px;}
+    #section1 .item_section .two .text span b{font-size: 15px;}
+    #section1 .item_section2 .acc{width:100%;}
+    #section1 .item_section2 .acc .panel .aco_img{width:90px; gap:1rem;}
+    #section1 .item_section2 .acc .accordion {padding: 8px; font-size: 18px;}
+    #section1 .item_section2 .acc .panel{margin: 4px 0;}
+} 
+
+
+/* ----------(322~480)---------- */
+@media (max-width:480px){
+    #navbar{height: 60px;}
+    #navbar .nav_right{margin-right:5px;}
+    #navbar .nav_left .logo{width: 100px;}
+    #navbar .nav_right .search{font-size: 16px;}
+    #navbar .nav_right .cart{font-size: 16px;}
+    #navbar .nav_right .bars{font-size: 16px;}
+
+    .banner{height: 25vh;}
+    .banner .banner_left{width: 60%;}
+    .banner .banner_right{width: 40%;}
+    .banner_left .banner_txt span.banner_tit{font-size: 11px;}
+    .banner .banner_left .rotate_logo{width: 70px; top:145px; right: 120px;}
+
+
+
+    #section1{margin-top: 20px;}
+   
+ 
+    #section1 .wrap .title {font-size: 16px; letter-spacing: 7px; padding: 20px 0;}
+
+    #section1 .left h1{font-size: 20px;}
+    #section1 .left .open_vedio img{height: 300px; padding-left: 10px;}
+
+    #section1 .wrap .center{height: 35vh;}
+    #section1 .center .centertit h1{font-size: 20px;}
+    #section1 .wrap .center .rgb{width: 550px; height: 250px; top: 60px;}
+
+    #section1 .wrap .right h1{font-size: 20px;}
+    #section1 .item_section2 .acc .panel .aco_img{width: 65px; gap: 0.5rem;}
+    #section1 .item_section .two .model_img .img{width: 250px; height: 250px; top: 10px;}
+}
+
+/* ----------(0~320)---------- */
+@media (max-width:320px){
+    #section1{margin-top: 10px;}
+
+    #section1 .left .open_vedio img{height: 200px;}
+
+
+
+}
+
+
+
+
+
+
+
